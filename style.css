@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.weight-300 {
+	font-weight: 300;
+}
+
+.weight-400 {
+	font-weight: 400;
+}
+
+.weight-500 {
+	font-weight: 500;
+}
+
+.weight-600 {
+	font-weight: 600;
+}
+
+.weight-700 {
+	font-weight: 700;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-lightred {
+	color: #EE6767;
+}
+
+.background-lightred {
+	background-color: #FF3D3D;
+}
+
+.text-blue {
+	color: #105C86;
+}
+
+.text-grey {
+	color: #B2B2B2;
+}
+
+.text-darkgrey {
+	color: #777777;
+}
+
+.background-lightgrey {
+	background-color: #ECECEC;
+}
+
+.background-bonegrey {
+	background-color: #F5F5F5;
+}
+
+.background-lightblue {
+	background-color: #BED5F7
+}
+
+#navbarSupportedContent{
+	justify-content: space-between;
+}
+
+.nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#banner{
+	background: linear-gradient(to bottom, #BED5F7 70%, #fff 30%);
+}
+
+#about{
+	background-color: #ECECEC;
+}
+
+#contacts{
+	background-color: #ECFCFF;
+}
+
+.btn-primary{
+	background-color: #EB5757;
+	border-color: #EB5757;
+  font-size: 22px;
+}
+
+.btn-primary:hover{
+	background-color: #eb3e3e;
+	border-color: #eb3e3e;
+}
+
+.separator > div + div::after {
+  content: "";
+  background: #ccc;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  height: 60%;
+  width: 1px;
+}
+
+.separator > li > a {
+  position: relative;
+  float: left;
+  padding: 0 0.5em;
+  list-style: none;
+}
+
+.separator > li > a::after {
+  content: "";
+  background: #EB5757;
+  position: absolute;
+  bottom: 0%;
+  right: -0.5em;
+  height: 100%;
+  width: 2px;
+}
+
+.separator > li:last-child > a::after {
+	width: 0;
+}
+
+.separator > li:first-child > a::after {
+	right: 0;
+}
+
+.card {
+	border:none;
+}
+
+
+.sign-form {
+	width: 29%;
+}
+
+hr {
+	border-top: 2px solid ;
+}
+
+.btn-sign {
+	font-size: 20px;
+}
+
+.add-emp {
+	width: 40%;
+}
