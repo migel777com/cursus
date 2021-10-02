@@ -162,6 +162,14 @@ body {
 	margin-left: -1.3em; 
 }
 
+#testing{
+	background-color: #FAFAFA;
+}
+
+#constructor{
+	background-color: #ECFCFF;
+}
+
 #contacts{
 	background-color: #ECFCFF;
 }
@@ -337,6 +345,18 @@ hr {
 .costs  tr  th:first-child{
 	text-align: left;
 }
+
+.dot {
+	width: 1.5em;
+	height: 1.5em;
+	background-color: #EE6767;
+	border-radius: 50%;
+	display: inline-block;
+  }
+  footer{
+	  background-color: #484848;
+	  color: white;
+  }
 
 .accordion-button::after {
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
