@@ -30,11 +30,11 @@
                                         <div class="container">
                                           <div class="row">
                                             <div class="col-10">
-                                              <h4 class="weight-700 text-blue">Профиль</h4>
+                                              <h4 class="weight-700 text-lightred">Профиль</h4>
                                               <span class="weight-300 text-blue h6">Настройка<br> личного кабинета</span>
                                             </div>
                                             <div class="col-2 d-flex justify-content-center">
-                                              <a class="d-flex align-content-center"><img src="images/arrow_blue.svg"></a>
+                                              <a class="d-flex align-content-center"><img src="images/arrow.svg"></a>
                                             </div>
                                           </div>
                                         </div>
@@ -82,11 +82,11 @@
                                         <div class="container">
                                           <div class="row">
                                             <div class="col-10">
-                                              <h4 class="weight-700 text-lightred">Тестирование</h4>
+                                              <h4 class="weight-700 text-blue">Тестирование</h4>
                                               <span class="weight-300 text-blue h6">Качественный подбор кандидатов</span>
                                             </div>
                                             <div class="col-2 d-flex justify-content-center">
-                                              <a class="d-flex align-content-center"><img src="images/arrow.svg"></a>
+                                              <a class="d-flex align-content-center"><img src="images/arrow_blue.svg"></a>
                                             </div>
                                           </div>
                                         </div>
@@ -161,119 +161,101 @@
                                   </li>
                           </ul>
                         </div>
+                        
                         <!-- КОНТЕНТ -->
+                        <!-- ЛИЧНЫЙ КАБИНЕТ -->
                         <div class="container p-5">
-                            <p class="h4 weight-600">ТЕСТИРОВАНИЕ</p>
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-blue-fill font-18 text-white rounded-pill fw-bold shadow-none text-nowrap px-4 py-2">Для кандидатов</button>
-                                <button class="btn btn-blue-nofill font-18 text-blue rounded-pill weight-500 shadow-none text-nowrap px-4 py-2">Для сотрудников</button>
-                            </div>
-                            <p class="h5 weight-400">Выберите вакансию для теста</p>
-                            <table class="table background-bonegrey border-lightgrey table-bordered weight-500 mt-5 w-50">
-                              <tr class="background-blue text-white">
-                                  <td class="d-flex justify-content-center">№</td><td>Название вакансии</td><td>Выбрать</td>  
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">1</td><td>Менеджер по продажам</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">2</td><td>Финансист</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">3</td><td>Продавек консультант</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">4</td><td>Бухгалтер</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                            </table>
-                            <div class="d-flex justify-content-end w-50 pt-2">
-                              <button class="btn btn-blue-fill font-16 text-white rounded-pill fw-bold shadow-none text-nowrap px-3 py-2">Добавить вакансию</button>
-                            </div>
-                            
-                            <p class="h5 weight-400 pt-5 pb-4">Выберите тип теста</p>
+                            <p class="h4 text-uppercase weight-600">Добро пожаловать в личный кабинет</p>
+                            <div class="row pt-5">
+                                <div class="col-sm-6">
+                                    <div class="card background-bonegrey" style="border-radius: 15px;border-color: none;">
+                                        <div class="row p-3">
+                                            <div class="card-body col-9">
+                                                <h4 class="card-title weight-600 pb-3">Данные пользователя</h4>
+                                                
+                                                <p class="card-subtitle text-grey h6">ФИО</p>
+                                                <p class="card-text h5">
+                                                    <input type="text" name="FullName" value="Иван Иванов Иванович" class="pretty_input text-blue weight-600">
+                                                </p>
 
-                            <div class="w-50">
-                              <button class="btn btn-primary rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">DISC</button>
-                              <button class="btn btn-primary-nofill text-lightred weight-500 rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">IQ</button>
-                              <button class="btn btn-primary-nofill text-lightred weight-500 rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">RESULT</button>
+                                                <p class="card-subtitle text-grey h6 mt-2">Телефон</p>
+                                                <p class="card-text h5">
+                                                    <input type="text" name="FullName" value="8-777-777-77-77"  class="pretty_input text-blue weight-600">
+                                                </p>
 
-                              <form>
-                                <input type="text" id="" class="form-control-lg border-lightgrey w-100 my-3" placeholder="Введите  email тестируемого">
+                                                <p class="card-subtitle text-grey h6 mt-2">E-mail</p>
+                                                <p class="card-text h5">
+                                                    <input type="text" name="FullName" value="cursus@gmail.com" class="pretty_input text-blue weight-600">
+                                                </p>
 
-                                <div class="d-flex justify-content-end">
-                                  <button type="submit" class="btn btn-primary rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">Отправить</button>
+                                                <p class="card-subtitle text-grey h6 mt-2">Пароль</p>
+                                                <p class="card-text d-flex h5">
+                                                    <input type="text" name="FullName" value="dwWdf02W!" class="pretty_input text-blue weight-600" style="border:none;">
+                                                    <a class="text-lightred" href="#"><small>Изменить</small></a>
+                                                </p>
+                                            </div>
+                                            <div class="col-3 pt-5 d-flex align-items-start justify-content-center">
+                                                <img width="100%" src="images/profile.png" class="rounded-circle">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              </form>
-                              
+
+                                <div class="col-sm-6">
+                                    <div class="card background-sky" style="border-radius: 15px;border-color: none;">
+                                        <div class="row p-3">
+                                            <div class="card-body col-9">
+                                                <h4 class="card-title weight-600 pb-3">Информация о компании</h4>
+                                                
+                                                <p class="card-subtitle text-grey h6">Наименование компании</p>
+                                                <p class="card-text h5">
+                                                    <input type="text" name="FullName" value="ТОО “Компания”" class="pretty_input text-blue weight-600">
+                                                </p>
+
+                                                <p class="card-subtitle text-grey h6 mt-2">Адрес</p>
+                                                <p class="card-text h5">
+                                                    <input type="text" name="FullName" value="г. Алматы ул. Абая 112 В"  class="pretty_input text-blue weight-600">
+                                                </p>
+
+                                                <p class="card-subtitle text-grey h6 mt-2">E-mail</p>
+                                                <p class="card-text h5">
+                                                    <input type="text" name="FullName" value="my-company@gmail.com" class="pretty_input text-blue weight-600">
+                                                </p>
+
+                                                <p class="card-subtitle text-grey h6 mt-2">Активная подписка</p>
+                                                <p class="card-text d-flex h5">
+                                                    <input type="text" name="FullName" value="нет активной подписки" class="pretty_input text-blue weight-600" style="border:none;">
+                                                    <a class="text-lightred" href="#"><small>Получить</small></a>
+                                                </p>
+                                            </div>
+                                            <div class="col-3 pt-5 d-flex align-items-start justify-content-center">
+                                                <img width="100%" src="images/profile.png" class="rounded-circle">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
-
                         </div>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="px-4 py-5">
-              <p class="h5 weight-400 pb-4">Таблица результатов тестирования</p>
-
-              <table class="table table-striped">
-                <tr class="background-sky">
-                    <th>тип теста</th>
-                    <th>фио</th>
-                    <th>должность</th>
-                    <th>пол</th>
-                    <th>возраст</th>
-                    <th>резюме</th>
-                    <th>почта</th>
-                    <th>телефон</th>
-                    <th>результаты</th>
-                </tr>
-                <tr>
-                    <td>disc</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-                <tr>
-                    <td>result</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-                <tr>
-                    <td>iq</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-                <tr>
-                    <td>result</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-              </table>
-            </div>
-
+                        <div class="container p-5">
+                            <div class="row p-3" style="background-image: url('images/руководство.png');height: 20vh;background-repeat: no-repeat;background-size:100%;border-radius: 15px;border-color: none;">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <p class="h4 weight-600">Руководство для HR</p>
+                            </div>
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <p class="h4 text-lightred mx-4">перейти</p>
+                                <img width="15%" src="images/arrow.svg">
+                            </div>
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <img src="images/question.svg">
+                            </div>
+                        </div>
+                        </div>
+                        
+                      </div>
+                  </div>
+              </div>
+        </div>
     </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
