@@ -56,11 +56,11 @@
                                         <div class="container">
                                           <div class="row">
                                             <div class="col-10">
-                                              <h4 class="weight-700 text-blue">Подписки</h4>
+                                              <h4 class="weight-700 text-lightred">Подписки</h4>
                                               <span class="weight-300 text-blue h6">Подписки портала</span>
                                             </div>
                                             <div class="col-2 d-flex justify-content-center">
-                                              <a class="d-flex align-content-center"><img src="images/arrow_blue.svg"></a>
+                                              <a class="d-flex align-content-center"><img src="images/arrow.svg"></a>
                                             </div>
                                           </div>
                                         </div>
@@ -82,11 +82,11 @@
                                         <div class="container">
                                           <div class="row">
                                             <div class="col-10">
-                                              <h4 class="weight-700 text-lightred">Тестирование</h4>
+                                              <h4 class="weight-700 text-blue">Тестирование</h4>
                                               <span class="weight-300 text-blue h6">Качественный подбор кандидатов</span>
                                             </div>
                                             <div class="col-2 d-flex justify-content-center">
-                                              <a class="d-flex align-content-center"><img src="images/arrow.svg"></a>
+                                              <a class="d-flex align-content-center"><img src="images/arrow_blue.svg"></a>
                                             </div>
                                           </div>
                                         </div>
@@ -161,119 +161,65 @@
                                   </li>
                           </ul>
                         </div>
+                        
                         <!-- КОНТЕНТ -->
+                        <!-- ПОДПИСКИ -->
                         <div class="container p-5">
-                            <p class="h4 weight-600">ТЕСТИРОВАНИЕ</p>
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-blue-fill font-18 text-white rounded-pill fw-bold shadow-none text-nowrap px-4 py-2">Для кандидатов</button>
-                                <button class="btn btn-blue-nofill font-18 text-blue rounded-pill weight-500 shadow-none text-nowrap px-4 py-2">Для сотрудников</button>
+                            <p class="h4 weight-600">ПОДПИСКИ</p>
+                            <p class="text-cabgrey h4 w-50 py-2" style="border-bottom: 1px solid #B2B2B2;">У вас нет активных подписок</p>
+
+                            <div class="row pt-5 ">
+                                <table class="table align-middle table-borderless costs" style="border-radius: 15px;border-color: transparent;background-color: #ECECEC;">
+                                    <tr class="align-bottom">
+                                        <th class="h5 weight-400 ps-3">Виды подписки</th>
+                                        <th class="h3 weight-600">Бесплатная</th>
+                                        <th class="h3 text-blue weight-600">Базовая</th>
+                                        <th class="h3 text-lightred weight-600">Премиум</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Профессиональное тестирование кандидатов и действующих сотрудников</th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                    </tr>
+                                    <tr>
+                                        <th>База данных всех протестированных кандидатов и сотрудников</th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Доступ к библиотеке</th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Инструкции (Создание инструкции для ваших сотрудников)</th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                        <th><img src="images/checks.svg"></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Цена подписки</th>
+                                        <th>7 дней бесплатно</th>
+                                        <th>от <span class="text-blue">70 000 тг</span> в месяц</th>
+                                        <th>от <span class="text-lightred">90 000 тг</span> в месяц</th>
+                                    </tr>
+                                    <tr>
+                                        <th></th>
+                                        <th><button class="btn btn-primary weight-500 shadow-none text-nowrap">Активировать</button></th>
+                                        <th><button class="btn btn-primary weight-500 shadow-none text-nowrap">Активировать</button></th>
+                                        <th><button class="btn btn-primary weight-500 shadow-none text-nowrap">Активировать</button></th>
+                                    </tr>
+                                </table>
                             </div>
-                            <p class="h5 weight-400">Выберите вакансию для теста</p>
-                            <table class="table background-bonegrey border-lightgrey table-bordered weight-500 mt-5 w-50">
-                              <tr class="background-blue text-white">
-                                  <td class="d-flex justify-content-center">№</td><td>Название вакансии</td><td>Выбрать</td>  
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">1</td><td>Менеджер по продажам</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">2</td><td>Финансист</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">3</td><td>Продавек консультант</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                              <tr>
-                                  <td class="d-flex justify-content-center">4</td><td>Бухгалтер</td><td class="d-flex justify-content-center"><input type="checkbox" name=""></td>    
-                              </tr>
-                            </table>
-                            <div class="d-flex justify-content-end w-50 pt-2">
-                              <button class="btn btn-blue-fill font-16 text-white rounded-pill fw-bold shadow-none text-nowrap px-3 py-2">Добавить вакансию</button>
-                            </div>
-                            
-                            <p class="h5 weight-400 pt-5 pb-4">Выберите тип теста</p>
-
-                            <div class="w-50">
-                              <button class="btn btn-primary rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">DISC</button>
-                              <button class="btn btn-primary-nofill text-lightred weight-500 rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">IQ</button>
-                              <button class="btn btn-primary-nofill text-lightred weight-500 rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">RESULT</button>
-
-                              <form>
-                                <input type="text" id="" class="form-control-lg border-lightgrey w-100 my-3" placeholder="Введите  email тестируемого">
-
-                                <div class="d-flex justify-content-end">
-                                  <button type="submit" class="btn btn-primary rounded-pill fw-bold shadow-none text-nowrap px-5 py-2">Отправить</button>
-                                </div>
-                              </form>
-                              
-                            </div>
-
                         </div>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="px-4 py-5">
-              <p class="h5 weight-400 pb-4">Таблица результатов тестирования</p>
-
-              <table class="table table-striped">
-                <tr class="background-sky">
-                    <th>тип теста</th>
-                    <th>фио</th>
-                    <th>должность</th>
-                    <th>пол</th>
-                    <th>возраст</th>
-                    <th>резюме</th>
-                    <th>почта</th>
-                    <th>телефон</th>
-                    <th>результаты</th>
-                </tr>
-                <tr>
-                    <td>disc</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-                <tr>
-                    <td>result</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-                <tr>
-                    <td>iq</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-                <tr>
-                    <td>result</td>
-                    <td>иванов иван иванович</td>
-                    <td>бухгалтер</td>
-                    <td>муж</td>
-                    <td>25</td>
-                    <td>показать</td>
-                    <td>ivan@gmail.com</td>
-                    <td>8777-777-7777</td>
-                    <td>показать</td>
-                </tr>
-              </table>
-            </div>
-
+                        
+                      </div>
+                  </div>
+              </div>
+        </div>
     </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
