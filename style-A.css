@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+}
+#navbarSupportedContent{
+	justify-content: space-between;
+}
+.nav-link{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#banner{
+	background: linear-gradient(to bottom, #BED5F7 80%, #aaa 20%);
+}
+#about{
+	background-color: #ECECEC;
+}
+.background-sky{
+	background-color: #ECFCFF;
+}
+.profile_header{
+	background-color: #105B86;
+}
+.cabinet_menu{
+	background-color: #DDF9FF;
+
+}
+.btn-primary{
+	background-color: #EB5757;
+	border-color: #EB5757;
+}
+.pretty_input{
+	background-color: transparent;
+	border-width:0px 0px 0.8px 0px;
+	border-color: gray;
+	border-style: solid;
+	width: 100%;
+}
+.pretty_button{
+	background-color: #ECECEC;
+	border-color: transparent;
+	border-radius: 5px;
+}
+.background-gray {
+	background-color: #F5F5F5;
+}
+
+.list-group-item{
+	background-color: transparent !important;
+	border-color: #AED3DB;
+}
+.fill {
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+.folder_fin{
+	border-bottom: 50px solid #105C86;
+	border-left: 0 solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	border-radius: 15px 0px 0px 0px;
+	width: 60%;
+}
+.folder{
+	background-color: #105C86;
+}
+.folder_up{
+	border-radius: 0px 15px 0px 0px;
+}
+.folder_down{
+	border-radius: 0px 0px 15px 15px;
+}
+.costs  tr  th{
+	text-align: center;
+	padding: 1em;
+}
+.costs  tr  th:first-child{
+	text-align: left;
+}
+.separator > div + div::after {
+  content: "";
+  background: #ccc;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  height: 60%;
+  width: 1px;
+}
+.separator > li > a {
+  position: relative;
+  float: left;
+  padding: 0 0.5em;
+  list-style: none;
+}
+.separator > li > a::after {
+  content: "";
+  background: #EB5757;
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  height: 100%;
+  width: 2px;
+}
+.separator > li:last-child > a::after {
+	width: 0;
+}
+.card{
+	border:none;
+}
